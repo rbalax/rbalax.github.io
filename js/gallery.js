@@ -1,7 +1,5 @@
 
 
-alert("hi Rom");
-
 
 function activateGallery() {
 let thumbnails = document.querySelector("#gallery-thumbs").
@@ -13,8 +11,7 @@ thumbnails.forEach(function(thumbnail) {
     // code to set clicked image as main image
     let newImageSrc = thumbnail.dataset.largeVersion;
     mainImage.setAttribute("src", newImageSrc);
-    // let newImageAlt = thumbnail.alt;
-    //     mainImage.setAttribute("alt", newImageAlt);
+    mainImage.setAttribute("alt", thumbnail.alt);
   });
 });
 }
