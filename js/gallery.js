@@ -13,8 +13,8 @@ thumbnails.forEach(function(thumbnail) {
     // code to set clicked image as main image
     let newImageSrc = thumbnail.dataset.largeVersion;
     mainImage.setAttribute("src", newImageSrc);
-    let newImageAlt = thumbnail.alt;
-        mainImage.setAttribute("alt", newImageAlt);
+    // let newImageAlt = thumbnail.alt;
+    //     mainImage.setAttribute("alt", newImageAlt);
   });
 });
 }
