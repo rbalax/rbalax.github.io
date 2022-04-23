@@ -1,3 +1,8 @@
+
+
+alert("hi Rom");
+
+
 function activateGallery() {
 let thumbnails = document.querySelector("#gallery-thumbs").
                           querySelectorAll("img");
